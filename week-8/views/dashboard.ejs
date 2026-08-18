@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Welcome to the Private Dashboard, <%= user %>!</h1>
+
+    <p>
+        <strong>Session Info:</strong>
+        You are logged in via express-session.
+    </p>
+
+    <p>
+        <strong>Cookie Data:</strong>
+        Your last login/refresh was at: <%= lastVisit %>
+    </p>
+
+    <hr>
+
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
